@@ -6,7 +6,7 @@
 //
 
 @propertyWrapper
-public struct Injected<T: AnyInjectedKey> {
+public struct Injected<T> {
     public var wrappedValue: T {
         get { InjectedValues[T.self] }
     }

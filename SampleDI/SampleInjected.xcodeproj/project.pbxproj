@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		69AE30792BCD073400D05D95 /* SampleInjected.docc in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30782BCD073400D05D95 /* SampleInjected.docc */; };
 		69AE307A2BCD073400D05D95 /* SampleInjected.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AE30772BCD073400D05D95 /* SampleInjected.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69AE30A12BCD097E00D05D95 /* AnyDIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30A02BCD097E00D05D95 /* AnyDIKey.swift */; };
 		69AE30A32BCD09CC00D05D95 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30A22BCD09CC00D05D95 /* Injected.swift */; };
 		69AE30A52BCD09E600D05D95 /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30A42BCD09E600D05D95 /* InjectedValues.swift */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		69AE30742BCD073400D05D95 /* SampleInjected.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleInjected.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AE30772BCD073400D05D95 /* SampleInjected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleInjected.h; sourceTree = "<group>"; };
 		69AE30782BCD073400D05D95 /* SampleInjected.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SampleInjected.docc; sourceTree = "<group>"; };
-		69AE30A02BCD097E00D05D95 /* AnyDIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDIKey.swift; sourceTree = "<group>"; };
 		69AE30A22BCD09CC00D05D95 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
 		69AE30A42BCD09E600D05D95 /* InjectedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				69AE30772BCD073400D05D95 /* SampleInjected.h */,
-				69AE30A02BCD097E00D05D95 /* AnyDIKey.swift */,
 				69AE30A22BCD09CC00D05D95 /* Injected.swift */,
 				69AE30A42BCD09E600D05D95 /* InjectedValues.swift */,
 				69AE30782BCD073400D05D95 /* SampleInjected.docc */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69AE30A12BCD097E00D05D95 /* AnyDIKey.swift in Sources */,
 				69AE30A52BCD09E600D05D95 /* InjectedValues.swift in Sources */,
 				69AE30792BCD073400D05D95 /* SampleInjected.docc in Sources */,
 				69AE30A32BCD09CC00D05D95 /* Injected.swift in Sources */,

@@ -10,18 +10,7 @@ public struct InjectedValues {
     
     private static var current: [String: Any] = [:]
     
-    /// A static subscript for updating the `currentValue` of `InjectionKey` instances.
-    public static subscript<K>(key: String) -> K where K : AnyInjectedKey {
-        get {
-            guard let value = current[key] as? K else {
-                fatalError("No value found for key: \(key)")
-            }
-            return value
-        }
-        set { current[key] = newValue }
-    }
-    
-    public static subscript<K>(key: K.Type) -> K where K : AnyInjectedKey {
+    public static subscript<K>(key: K.Type) -> K {
         get {
             let keyMap = String(reflecting: K.self)
             guard let value = current[String(describing: keyMap)] as? K else {

@@ -14,6 +14,8 @@
 		69AE30A72BCD0A6A00D05D95 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30A62BCD0A6A00D05D95 /* DIContainer.swift */; };
 		69AE30A92BCD103E00D05D95 /* SampleInjected.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AE30A82BCD103E00D05D95 /* SampleInjected.framework */; };
 		69AE30AA2BCD103E00D05D95 /* SampleInjected.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69AE30A82BCD103E00D05D95 /* SampleInjected.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69AE30AD2BCD146600D05D95 /* AnyUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30AC2BCD146600D05D95 /* AnyUseCases.swift */; };
+		69AE30AF2BCD14AC00D05D95 /* RealUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE30AE2BCD14AC00D05D95 /* RealUseCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,8 @@
 		69AE309C2BCD078500D05D95 /* SampleDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SampleDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AE30A62BCD0A6A00D05D95 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		69AE30A82BCD103E00D05D95 /* SampleInjected.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SampleInjected.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AE30AC2BCD146600D05D95 /* AnyUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUseCases.swift; sourceTree = "<group>"; };
+		69AE30AE2BCD14AC00D05D95 /* RealUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealUseCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				69AE308C2BCD074400D05D95 /* DemoApp.swift */,
 				69AE308E2BCD074400D05D95 /* ContentView.swift */,
 				69AE30A62BCD0A6A00D05D95 /* DIContainer.swift */,
+				69AE30AC2BCD146600D05D95 /* AnyUseCases.swift */,
+				69AE30AE2BCD14AC00D05D95 /* RealUseCases.swift */,
 				69AE30902BCD074500D05D95 /* Assets.xcassets */,
 				69AE30922BCD074500D05D95 /* Demo.entitlements */,
 				69AE30932BCD074500D05D95 /* Preview Content */,
@@ -172,7 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69AE30AD2BCD146600D05D95 /* AnyUseCases.swift in Sources */,
 				69AE308F2BCD074400D05D95 /* ContentView.swift in Sources */,
+				69AE30AF2BCD14AC00D05D95 /* RealUseCases.swift in Sources */,
 				69AE30A72BCD0A6A00D05D95 /* DIContainer.swift in Sources */,
 				69AE308D2BCD074400D05D95 /* DemoApp.swift in Sources */,
 			);
